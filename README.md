@@ -44,4 +44,4 @@ Once you have the three input tables, you are ready to create orders. A sample s
 
 ## Example Usage
 
-_Coming soon!
+_Coming soon!_
