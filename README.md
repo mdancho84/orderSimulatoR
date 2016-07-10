@@ -1,5 +1,7 @@
 # orderSimulatoR
 
+___Fast and easy order simulation for customer and product learning!___
+
 ## About
 
 `orderSimulatoR` enables quick and easy creation of order data for simulation, data mining and machine learning. In it's current form, the `orderSimulatoR` is a collection of scripts that can be used to generate sample order data from the following inputs: customer table, products table, and customer-products interaction table. The output will be order data. Example input files are provided (refer to the data folder). The output generated is similar to that in the file `orders.xlsx`.
