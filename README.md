@@ -1,6 +1,6 @@
 # orderSimulatoR
 
-___Fast and easy order simulation for customer and product learning!___
+___Fast and easy `R` order simulation for customer and product learning!___
 
 ## About
 
@@ -42,3 +42,6 @@ Once you have the three input tables, you are ready to create orders. A sample s
 
 5. `createProductQuantities.R`: This function assigns product quantities to each line of the orders. The inputs are the orders data frame from step 4, the max quantity (make sure this is less than the total products), and the rate. This rate controls the distribution of quantities. Higher rates place more probability on lower line quantities.
 
+## Example Usage
+
+_Coming soon!
