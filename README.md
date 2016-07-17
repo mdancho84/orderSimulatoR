@@ -4,11 +4,15 @@ ___Fast and easy `R` order simulation for customer and product learning!___
 
 ## About
 
-`orderSimulatoR` enables quick and easy creation of order data for simulation, data mining and machine learning. In it's current form, the `orderSimulatoR` is a collection of scripts that can be used to generate sample order data from the following inputs: customer table, products table, and customer-products interaction table. The output will be order data. Example input files are provided (refer to the data folder). The output generated is similar to that in the file `orders.xlsx`.
+`orderSimulatoR` enables fast and easy creation of order data for simulation, data mining and machine learning. In it's current form, the `orderSimulatoR` is a collection of scripts that can be used to generate sample order data from the following inputs: customer table (e.g. `bikeshops.xlsx`), products table (e.g. `bikes.xlsx`), and customer-products interaction table (e.g. `customer_product_interactions.xlsx`). The output will be order data. Example input files are provided (refer to the data folder). The output generated is similar to that in the file `orders.xlsx`.
 
 ## Why this Helps
 
 It's very difficult to create custom order data for data mining, visualization, trending, etc. I've searched for good data sets, and I came to the conclusion that I'm better off creating my own orders data for messing around with on my blog. In the process, I made an algorithm to generate the orders. I made the algorithm publicly available so others can use to show off their analytical abilities.
+
+## Example Usage
+
+* [ORDERSIMULATOR: SIMULATE ORDERS FOR BUSINESS ANALYTICS](http://www.mattdancho.com/business/2016/07/12/orderSimulatoR.html)
 
 ## How to Create Orders
 
@@ -42,6 +46,3 @@ Once you have the three input tables, you are ready to create orders. A sample s
 
 5. `createProductQuantities.R`: This function assigns product quantities to each line of the orders. The inputs are the orders data frame from step 4, the max quantity (make sure this is less than the total products), and the rate. This rate controls the distribution of quantities. Higher rates place more probability on lower line quantities.
 
-## Example Usage
-
-_Coming soon!_
