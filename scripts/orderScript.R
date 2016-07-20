@@ -37,8 +37,21 @@ customerProductProbs <- customerProductProbs[,-(2:12)]  # Remove unnecessary col
 orders <- createOrdersAndLines(n = 2000, maxLines = 30, rate = 1)       
 
 # Step 2 - Add dates to the orders
-orders <- createDatesFromOrders(orders, startYear = 2011, 
-                                yearlyOrderDist = c(.16, .18, .22, .20, .24))       
+orders <- createDatesFromOrders(orders, 
+                                startYear = 2011, 
+                                yearlyOrderDist = c(.16, .18, .22, .20, .24),
+                                monthlyOrderDist = c(0.045, 
+                                                     0.075, 
+                                                     0.100, 
+                                                     0.110, 
+                                                     0.120, 
+                                                     0.125, 
+                                                     0.100, 
+                                                     0.085, 
+                                                     0.075, 
+                                                     0.060, 
+                                                     0.060, 
+                                                     0.045))
 
 # Step 3 - Assign customer id's to order lines
 orders <- assignCustomersToOrders(orders, customers, rate = 0.8)
