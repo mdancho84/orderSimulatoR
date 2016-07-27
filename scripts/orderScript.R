@@ -27,7 +27,7 @@ products <- read.xlsx("./data/bikes.xlsx", sheetIndex = 1)
 customerProductProbs <- read.xlsx("./data/customer_product_interactions.xlsx", 
                                   sheetIndex = 1, 
                                   startRow = 15)
-customerProductProbs <- customerProductProbs[,-(2:12)]  # Remove unnecessary columns
+customerProductProbs <- customerProductProbs[,-(2:11)]  # Remove unnecessary columns
 
 
 # Create orders
