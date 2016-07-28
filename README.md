@@ -8,9 +8,7 @@ ___Fast and easy `R` order simulation for customer and product learning!___
 
 ## Why this Helps
 
-It's very difficult to create custom order data for data mining, visualization, trending, etc. I've searched for good data sets, and I came to the conclusion that I'm better off creating my own orders data for messing around with on my blog. In the process, I made an algorithm to generate the orders. I made the algorithm publicly available so others can use to show off their analytical abilities. The process to create orders (shown below) is fast and easy, and the result is orders with customized trends depending on the inputs you create and the parameters you select.
-
-![Order Simulation Process](/figures/OrderSimProcess.jpg)
+It's very difficult to create custom order data for data mining, visualization, trending, etc. I've searched for good data sets, and I came to the conclusion that I'm better off creating my own orders data for messing around with on my blog. In the process, I made an algorithm to generate the orders. I made the algorithm publicly available so others can use to show off their analytical abilities. T
 
 ## Example Usage
 
@@ -18,7 +16,9 @@ It's very difficult to create custom order data for data mining, visualization, 
 
 ## How to Create Orders
 
-There's a few basic steps. I've provided some sample data in the `data` folder to help with the explanation. The scripts used are in the `scripts` folder.
+The process to create orders (shown below) is fast and easy, and the result is orders with customized trends depending on the inputs you create and the parameters you select. I've provided some sample data in the `data` folder to help with the explanation. The scripts used are in the `scripts` folder. [Click here](http://www.mattdancho.com/business/2016/07/12/orderSimulatoR.html) for an in-depth walkthrough.
+
+![Order Simulation Process](/figures/OrderSimProcess.jpg =500x500) 
 
 ### Prior to starting you will need:
 
