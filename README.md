@@ -19,7 +19,7 @@ It's very difficult to create custom order data for data mining, visualization, 
 The process to create orders (shown below) is fast and easy, and the result is orders with customized trends depending on the inputs you create and the parameters you select. I've provided some sample data in the `data` folder to help with the explanation. The scripts used are in the `scripts` folder. [Click here](http://www.mattdancho.com/business/2016/07/12/orderSimulatoR.html) for an in-depth walkthrough.
 
 <!-- ![Order Simulation Process](/figures/OrderSimProcess.jpg =500x500)  -->
-<img src="/figures/OrderSimProcess.jpg" alt="Order Simulation Process" style="width: 300px; height: 300px;"/>
+<img src="/figures/OrderSimProcess.jpg" alt="Order Simulation Process" style="width: 150px; height: 150px;"/>
 
 ### Prior to starting you will need:
 
