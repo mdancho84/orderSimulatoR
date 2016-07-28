@@ -20,7 +20,7 @@ The process to create orders (shown below) is fast and easy, and the result is o
 
 <!-- ![Order Simulation Process](/figures/OrderSimProcess.jpg =500x500)  -->
 
-<img src="/figures/OrderSimProcess.jpg" alt="Order Simulation Process" width="600" height="400" vertical-align="center"/>
+<img src="/figures/OrderSimProcess.jpg" alt="Order Simulation Process" width="600" height="400" align="center"/>
 
 ### Prior to starting you will need:
 
